@@ -1,7 +1,7 @@
 package Cryptage;
 import java.util.Arrays;
 import java.util.List;
-import java.io.BufferedInputStream;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -29,10 +29,10 @@ public class Main {
 	}
 	
 	static void decrypter(BufferedReader reader) throws IOException  {
-		System.out.println("\nvotre code à decrypter est : ");
+		System.out.println("\nvotre code Ã  decrypter est : ");
 		
 		String[] code = reader.readLine().split(" ");
-		System.out.print("message reçu est:\t");
+		System.out.print("message reÃ§u est:\t");
 		line.decrypting(Arrays.asList(code));
 	}
 	
